@@ -6,7 +6,6 @@ while n // 1000 > 0 :
 
 summa = 0
 while n > 0:
-    x = n % 10
-    summa = summa + x
+    summa += n % 10
     n = n // 10
 print(summa)
